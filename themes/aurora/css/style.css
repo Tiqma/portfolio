@@ -22,7 +22,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: pink;
+    background-color: rgb(163, 212, 232);
 }
 
 .main {
@@ -56,6 +56,10 @@ body {
     .logo {
         max-width: 30%;
     }
+}
+
+.logo {
+    width: 100px;
 }
 
 .title * {
