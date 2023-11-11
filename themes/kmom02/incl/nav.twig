@@ -19,6 +19,7 @@
             <span class="sr-only">Toggle Menu</span>
         </a>
     </div>
+
     <div class="nav">
         <div id="nav" role="navigation" tabindex="-1">
             <ul>
@@ -29,5 +30,14 @@
                 {% endfor %}
             </ul>
         </div>
+    </div>
+    <div class="container">
+    <div class="socialx">
+        {% for socialx in pages["_meta"].meta.Socialx %}
+            <a href="{{ socialx.url }}" title="{{ socialx.title }}" role="button">
+                <i class="{{ socialx.icon }}" aria-hidden="true"></i>
+                <span class="sr-only">{{ socialx.title }}</span>
+            </a>
+        {% endfor %}
     </div>
 </div>
