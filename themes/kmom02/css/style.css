@@ -6457,6 +6457,123 @@ pre code {
   line-height: 1.4;
 }
 
+.landingpage {
+  display: grid;
+  gap: 2em 2em;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px 200px 150px 120px;
+  grid-template-areas: "TITLE TITLE" "CSS HTML" "JS PHP" "PYTHON GIT" "WIDE WIDE";
+  grid-gap: 50px; /* Added grid gap for spacing */
+  text-align: center; /* Moved text-align to center all content */
+}
+
+.landingpage h1 {
+  grid-area: TITLE;
+  grid-column: span 3;
+  justify-self: center;
+  margin-bottom: 20px;
+}
+
+.mainx {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+/* Styling for the specific box inside the main grid */
+.box {
+  border: 2px solid rgb(5, 5, 5);
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+  padding: 10px; /* Adjust padding for better visibility */
+}
+
+/* Assign each box to its respective grid area */
+.css {
+  grid-area: CSS;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.html {
+  grid-area: HTML;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.js {
+  grid-area: JS;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.php {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.python {
+  grid-area: PYTHON;
+}
+
+.git {
+  grid-area: GIT;
+}
+
+.wide {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 200px;
+}
+
+@media screen and (max-width: 960px) {
+  .mainx {
+    padding: 0.5em;
+    grid-gap: 5px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "TITLE" "CSS" "HTML" "JS" "PHP" "PYTHON" "GIT" "WIDE";
+  }
+}
+.subpage {
+  display: grid;
+  gap: 2em 2em;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto); /* Adjust as needed */
+  grid-template-rows: 100px 200px 150px 120px;
+  grid-gap: 50px;
+  text-align: center;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
+
+.techcontent {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  padding-top: 2em;
+  margin-bottom: 20px;
+}
+
+.techs {
+  grid-row-start: 2;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
+
+.techsx {
+  margin-bottom: 1em;
+  border-right: 2px solid rgb(6, 6, 6);
+  background-color: rgb(245, 245, 245);
+}
+
+@media screen and (max-width: 960px) {
+  .techs {
+    display: none;
+  }
+}
 body {
   background-color: #80793d;
 }
