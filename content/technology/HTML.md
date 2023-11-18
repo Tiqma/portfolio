@@ -1,7 +1,7 @@
 ---
 Title: HTML Page
 Description: This is information about html
-Template: techs
+Template: technology
 ---
 
 # HTML

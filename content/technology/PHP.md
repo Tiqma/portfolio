@@ -1,7 +1,7 @@
 ---
 Title: PHP Page
 Description: This is information about php
-Template: techs
+Template: technology
 ---
 
 # PHP

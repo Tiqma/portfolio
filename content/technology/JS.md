@@ -1,7 +1,7 @@
 ---
 Title: JAVASCRIPT Page
 Description: This is information about javascript
-Template: techs
+Template: technology
 ---
 
 # JavaScript

@@ -1,7 +1,7 @@
 ---
 Title: SQLITE Page
 Description: This is information about sqlite
-Template: techs
+Template: technology
 ---
 
 # SQLite

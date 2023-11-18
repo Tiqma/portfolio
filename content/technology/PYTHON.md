@@ -1,7 +1,7 @@
 ---
 Title: PYTHON Page
 Description: This is information about python
-Template: techs
+Template: technology
 ---
 
 # Python

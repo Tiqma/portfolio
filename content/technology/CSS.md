@@ -1,7 +1,7 @@
 ---
 Title: CSS Page
 Description: This is information about css
-Template: techs
+Template: technology
 ---
 
 # CSS

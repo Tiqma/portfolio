@@ -1,7 +1,7 @@
 ---
 Title: Git Page
 Description: This is information about git
-Template: techs
+Template: technology
 ---
 
 # Git
