@@ -21,8 +21,6 @@
     margin-bottom: 20px;
 }
 
-
-
 .techs {
     grid-row-start: 2;
     margin-bottom: 2em;
@@ -36,8 +34,8 @@
     background-color: rgb(245, 245, 245);
 }
 
-@media screen and (max-width: 960px) {
-    .techs {
-        display: none;
+@media screen and (max-width: 600px) {
+    .subpage {
+        display: block;
     }
 }

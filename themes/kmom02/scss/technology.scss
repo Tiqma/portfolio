@@ -77,15 +77,8 @@
     height: 200px;
 }
 
-@media screen and (max-width: 960px) {
-    .mainx {
-        padding: 0.5em;
-        grid-gap: 5px;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-areas: 'TITLE'
-        'CSS' 'HTML'
-        'JS' 'PHP'
-        'PYTHON' 'GIT'
-        'WIDE';
+@media screen and (max-width: 600px) {
+    .landingpage {
+        display: block;
     }
 }

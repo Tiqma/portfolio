@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6529,12 +6530,9 @@ pre code {
   height: 200px;
 }
 
-@media screen and (max-width: 960px) {
-  .mainx {
-    padding: 0.5em;
-    grid-gap: 5px;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "TITLE" "CSS" "HTML" "JS" "PHP" "PYTHON" "GIT" "WIDE";
+@media screen and (max-width: 600px) {
+  .landingpage {
+    display: block;
   }
 }
 .subpage {
@@ -6569,9 +6567,9 @@ pre code {
   background-color: rgb(245, 245, 245);
 }
 
-@media screen and (max-width: 960px) {
-  .techs {
-    display: none;
+@media screen and (max-width: 600px) {
+  .subpage {
+    display: block;
   }
 }
 body {
@@ -6584,4 +6582,15 @@ body {
 
 * {
   font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  border: 2px solid black;
+  margin-top: auto; /* Placerar footern längst ner */
+}
+
+.mainx {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 100% av vyhöjden för att säkerställa footern är under innehållet */
 }
