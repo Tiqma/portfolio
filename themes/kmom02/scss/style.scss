@@ -27,7 +27,9 @@ body {
 }
 
 .container {
-    border: 2px solid rgb(2, 2, 2);
+    background: #34343448;
+    border-bottom: 2px solid rgb(2, 2, 2);
+    border-top: 2px solid rgb(2, 2, 2);
     margin-top: auto;
 }
 
@@ -35,4 +37,81 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.article {
+    overflow: auto;
+    background: #3030309c;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #cccccca3;
+    line-height: 1.5;
+}
+
+.site-header {
+    padding-left: 2em;
+    padding-top: 10px;
+    background: #2222229c;
+}
+
+
+.socialx {
+    text-align: right;
+    font-size: 24px;
+    padding-left: 5px;
+    padding-right: 2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.social {
+    text-align: right;
+    font-size: 24px;
+    padding-left: 5px;
+    padding-right: 2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.navx {
+    background: #34343472;
+    text-align: right;
+}
+
+.navx a {
+    display: inline-block;
+    padding: 7px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 4em;
+}
+
+.navx ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navx li {
+    display: inline;
+}
+
+.navx a:hover {
+    color: #EEE;
+    background-color: #11087640;
+}
+
+.site-header {
+    padding-bottom: 1em;
 }
