@@ -6572,11 +6572,11 @@ pre code {
   }
 }
 body {
-  background-color: #80793d;
+  background-color: #22222b;
 }
 
 * {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 254, 0.64);
 }
 
 * {
@@ -6603,9 +6603,9 @@ body {
 
 .article {
   overflow: auto;
-  background: rgba(48, 48, 48, 0.6117647059);
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc;
+  background: rgba(24, 26, 34, 0.61);
+  border-left: 1px solid #372f0a;
+  border-right: 1px solid #372f0a;
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 1em;
@@ -6663,7 +6663,7 @@ body {
 
 .navx a:hover {
   color: #EEE;
-  background-color: rgba(17, 8, 118, 0.2509803922);
+  background-color: rgba(118, 107, 8, 0.2509803922);
 }
 
 .site-header {
@@ -6677,17 +6677,24 @@ body {
 }
 
 .elva {
+  filter: brightness(80%) contrast(120%) grayscale(10%);
   width: 600px;
   height: auto;
   box-shadow: 1px 1px 10px #888;
 }
 
 .polis {
+  filter: brightness(80%) contrast(120%) grayscale(10%);
   width: 600px;
   height: auto;
   box-shadow: 1px 1px 10px #888;
 }
 
+code {
+  background-color: #230303;
+}
+
 .box {
-  background-color: rgba(31, 31, 31, 0.7411764706);
+  color: rgb(255, 255, 255);
+  background: #3c391d;
 }

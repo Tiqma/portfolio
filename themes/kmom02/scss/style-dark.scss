@@ -6,7 +6,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import 'variablesDark';
 
 @import 'blockquotes';
 @import 'code';
@@ -47,8 +47,8 @@ body {
 .article {
     overflow: auto;
     background: $article-color;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
+    border-left: 1px solid $article-bord-color;
+    border-right: 1px solid $article-bord-color;
     padding-left: 1em;
     padding-right: 1em;
     padding-top: 1em;
@@ -123,17 +123,24 @@ body {
 }
 
 .elva {
+    filter: $img-bright;
     width: 600px;
     height: auto;
     box-shadow: 1px 1px 10px $img-shadow;
 }
 
 .polis {
+    filter: $img-bright;
     width: 600px;
     height: auto;
     box-shadow: 1px 1px 10px $img-shadow;
 }
 
-.box {
+code {
     background-color: $box-background-color;
+}
+
+.box {
+    color: $big-box-text-color;
+    background: $big-box-color;
 }
