@@ -6571,6 +6571,43 @@ pre code {
     display: block;
   }
 }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 600px) {
+  .gallery {
+    display: block;
+  }
+}
+.vid iframe {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .vid {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .vid iframe {
+    max-width: 100%;
+    height: auto;
+  }
+}
 body {
   background-color: #22222b;
 }
@@ -6701,4 +6738,8 @@ code {
 
 .techsx {
   background: rgba(42, 38, 38, 0.689);
+}
+
+.hidden {
+  display: none;
 }

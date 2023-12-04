@@ -14,8 +14,11 @@ Mitt namn är Tim och jag läser mitt första år på Bleking Tekniska Högskola
 
 <p>Är uppväxt i Småland, Eksjö, där jag för tillfället befinner mig men kommer snart flytta till jönköping</p>
 
+<!--![Albert](image/Albert_Einstein.jpg?h=250&w=50&stretch)
+![Albert](image/Albert_Einstein.jpg?h=250&w=50&crop-to-fit) -->
 ![Albert](image/Albert_Einstein.jpg)
-
+![Albert](image/Albert_Einstein.jpg?width=50%&blur)
+![Albert](image/Albert_Einstein.jpg?crop=50,40,100,80)
 <p>Har arbetat inom de flesta områdena men har nu funnit intresset för it.</p>
 
 <p>Teknik har väl alltid varit mitt intresse från ung ålder och har nog spenderat mesta mitt liv framför en skärm.</p>

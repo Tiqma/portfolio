@@ -13,6 +13,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@97.8,533;100,300;100,400&display=swap');
 @import 'technology';
 @import 'techcontent';
+@import 'gallery';
 
 body {
     background-color: $background-color;
@@ -147,4 +148,8 @@ code {
 
 .techsx {
     background: rgba(42, 38, 38, 0.689);
+}
+
+.hidden {
+    display: none;
 }

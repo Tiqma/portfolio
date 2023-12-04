@@ -11,7 +11,6 @@ Social:
   - title: Destroy Session
     url: ?action=session_destroy
     icon: fas fa-trash-alt
-Socialx:
   - title: Apple
     url: https://github.com/Tiqma/portfolio
     icon: fab fa-apple
