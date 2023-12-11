@@ -1,0 +1,27 @@
+.trans {
+    width: 400px;
+    opacity: 0.5;
+}
+
+.transx {
+    width: 400px;
+    opacity: 0.2;
+}
+
+.transxx {
+    width: 400px;
+}
+
+.transxd {
+    width: 400px;
+    opacity: 0.7;
+}
+
+.transxx, .transxd, .trans, .transx {
+    width: 400px;
+    transition: transform 0.3s ease;
+  }
+  
+  .transxx:hover, .transxd:hover, .trans:hover, .transx:hover {
+    transform: scale(1.1);
+  }
